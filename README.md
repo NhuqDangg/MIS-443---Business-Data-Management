@@ -18,32 +18,9 @@ This project implements an end-to-end relational database system for a universit
 
 ## Database Architecture & Schema Design
 
-The project utilizes a dedicated custom schema named `sch` to maintain modular structure and strict referential integrity.
-+-------------------+               +--------------------+
-   |   sch.professors  |               |    sch.students    |
-   +-------------------+               +--------------------+
-   | PK professor_id   |<---+          | PK student_id      |<---+
-   |    first_name     |    |          |    first_name      |    |
-   |    last_name      |    |          |    last_name       |    |
-   |    email          |    |          |    email           |    |
-   |    department     |    |          |    enrollment_date |    |
-   |    hire_date      |    |          |    graduation_year |    |
-   +-------------------+    |          |    major           |    |
-                            |          +--------------------+    |
-                            |                                    |
-                            | 1:N                                | 1:N
-                            |                                    |
-   +-------------------+    |          +--------------------+    |
-   |    sch.courses    |----+          |  sch.enrollments   |----+
-   +-------------------+               +--------------------+
-   | PK course_id      |<--------------| PK enrollment_id   |
-   |    course_name    |          1:N  | FK student_id      |
-   |    credits        |               | FK course_id       |
-   |    department     |               |    semester        |
-   | FK professor_id   |               |    year            |
-   +-------------------+               |    grade           |
-                                       +--------------------+
-  ### Key Entities & Entity Relationships
+![School Database Schema](schema.png)
+                                    
+### Key Entities & Entity Relationships
 1. **`sch.students`**: Stores student profiles, enrollment dates, and graduation targets.
 2. **`sch.professors`**: Manages faculty records, contact information, and departments.
 3. **`sch.courses`**: Academic course offerings with credit allocations and assigned faculty.
