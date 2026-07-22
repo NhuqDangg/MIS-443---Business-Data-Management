@@ -19,18 +19,6 @@ This project implements an end-to-end relational database system for a universit
 ## Database Architecture & Schema Design
 
 ![School Database Schema](schema.png)
-                                    
-### Key Entities & Entity Relationships
-1. **`sch.students`**: Stores student profiles, enrollment dates, and graduation targets.
-2. **`sch.professors`**: Manages faculty records, contact information, and departments.
-3. **`sch.courses`**: Academic course offerings with credit allocations and assigned faculty.
-4. **`sch.enrollments`**: Junction table establishing a **Many-to-Many (N:M)** relationship between Students and Courses.
-
-* **Professors ➔ Courses (1:N):** One professor can teach multiple courses.
-* **Students ➔ Enrollments (1:N):** One student can enroll in multiple courses.
-* **Courses ➔ Enrollments (1:N):** One course can have multiple student enrollments.
-
----
 
 ### Table Descriptions & Relationships
 1. **`sch.students`**: Stores student profiles, majors, enrollment dates, and expected graduation years.
