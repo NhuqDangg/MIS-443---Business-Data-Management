@@ -70,10 +70,10 @@ The project utilizes a dedicated custom schema named `sch` to maintain modular s
 ## 📂 Repository File Structure
 
 ```text
-├── courses_2.csv             # Sample dataset for courses
-├── enrollments_2.csv         # Sample dataset for course enrollments
-├── professors_2.csv        # Sample dataset for professors
-├── students_2.csv           # Sample dataset for students
+├── courses.csv             # Sample dataset for courses
+├── enrollments.csv         # Sample dataset for course enrollments
+├── professors.csv        # Sample dataset for professors
+├── students.csv           # Sample dataset for students
 ├── import data.sql           # DDL & Data Ingestion script (Table creation & Data cleaning)
 ├── exercise.sql              # DML Script (Solutions to business SQL questions 6.1 - 6.6)
 ├── Assignment 4 - danghuynhquynhnhu.pdf  # Final project report PDF
