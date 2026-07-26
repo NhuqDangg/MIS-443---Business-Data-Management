@@ -24,6 +24,12 @@ MIS443_2032300287_Healthcare/
 ├── codes/
 │   ├── import_data.sql
 │   └── exercise.sql
+├── health_data/
+│   └── appointments
+│   └── department 
+│   └── diagnoses
+│   └── doctor
+│   └── patients
 │
 ├── report/
 │   └── ERD.pgerd
