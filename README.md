@@ -30,16 +30,4 @@ This project implements an end-to-end relational database system for a universit
 * **Students ➔ Enrollments (1:N):** One student can have multiple enrollment records.
 * **Courses ➔ Enrollments (1:N):** One course can have multiple student enrollments.
 
----
 
-## 📂 Repository File Structure
-
-```text
-├── courses.csv             # Sample dataset for courses
-├── enrollments.csv         # Sample dataset for course enrollments
-├── professors.csv        # Sample dataset for professors
-├── students.csv           # Sample dataset for students
-├── import data.sql           # DDL & Data Ingestion script (Table creation & Data cleaning)
-├── exercise.sql              # DML Script (Solutions to business SQL questions 6.1 - 6.6)
-├── Assignment 4 - danghuynhquynhnhu.pdf  # Final project report PDF
-└── README.md                 # Project documentation
