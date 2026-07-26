@@ -33,6 +33,7 @@ MIS443_2032300287_Healthcare/
 │
 ├── report/
 │   └── ERD.pgerd
+│   └── report.pdf
 │
 └── README.md
 ```
