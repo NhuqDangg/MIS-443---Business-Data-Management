@@ -60,7 +60,7 @@ Each folder here is a separate database project — a different business context
 |---|:---:|:---:|:---:|:---:|:---:|
 | **School** | ✅ | ✅ | ✅ | – | ✅ |
 | **Healthcare** | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **Exercises** | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 |
+
 
 <br/>
 
