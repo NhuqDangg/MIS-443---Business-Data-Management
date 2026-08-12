@@ -64,9 +64,6 @@ The same dataset also powers a live web dashboard built with Google Apps Script,
 | 2. Đánh giá Giáo viên (Workload) | Scatter matrix of courses taught × total hours, auto-classified into 4 workload types, with a searchable per-instructor table |
 | 3. Sử dụng Phòng & Tòa nhà | Overloaded vs. underused rooms, and a building-level load summary with a rebalancing suggestion |
 
-![Dashboard — Overview](screenshots/dashboard-1-overview.png)
-![Dashboard — Workload matrix](screenshots/dashboard-2-workload.png)
-![Dashboard — Room & building usage](screenshots/dashboard-3-rooms.png)
 
 > ⚠️ **Note:** this link is a Google Apps Script Web App deployed under the `eiu.edu.vn` domain. Before sharing it publicly, open it in an incognito window or ask someone outside the university to test it — if the deployment's *"Who has access"* setting is scoped to the EIU organization rather than *"Anyone"*, external visitors will hit a permission error instead of the dashboard.
 ## How to run this project
