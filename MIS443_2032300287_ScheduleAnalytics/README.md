@@ -45,7 +45,30 @@ ERD: see `erd/ERD.png` (exported from pgAdmin's ERD Tool — `.pgerd` doesn't re
 ![Insight 4](screenshots/insight-4-double-booking.png)
 
 **Takeaway for the registrar:** cap weekly teaching hours with early warnings before peak weeks, and run the double-booking / hour-rule checks as SQL views *before* a schedule is published, not after.
+<!--
+Paste khối này vào README.md của MIS443_2032300287_ScheduleAnalytics/,
+ngay SAU mục "Insights this project surfaces" và TRƯỚC mục "How to run this project".
+Nhớ upload 3 ảnh chụp màn hình dashboard vào screenshots/ với đúng 3 tên file bên dưới,
+hoặc đổi lại đường dẫn ảnh cho khớp tên em đặt.
+-->
 
+## Live dashboard
+
+The same dataset also powers a live web dashboard built with Google Apps Script, reading directly from the source Google Sheet — so the numbers always match the tables in this repo.
+
+👉 **[Open the dashboard](https://script.google.com/a/macros/eiu.edu.vn/s/AKfycbyCPxIpV8AMqgyq2bVJrYoSSUIdWHfp2jmmML3lq2VhjqUeiOkAq0hPW13ZLV19YMMGaA/exec)**
+
+| Tab | What it shows |
+|---|---|
+| 1. Tổng quan | Headline counts (instructors/courses/rooms/hours), teaching-hour split by building, top 8 instructors by hours |
+| 2. Đánh giá Giáo viên (Workload) | Scatter matrix of courses taught × total hours, auto-classified into 4 workload types, with a searchable per-instructor table |
+| 3. Sử dụng Phòng & Tòa nhà | Overloaded vs. underused rooms, and a building-level load summary with a rebalancing suggestion |
+
+![Dashboard — Overview](screenshots/dashboard-1-overview.png)
+![Dashboard — Workload matrix](screenshots/dashboard-2-workload.png)
+![Dashboard — Room & building usage](screenshots/dashboard-3-rooms.png)
+
+> ⚠️ **Note:** this link is a Google Apps Script Web App deployed under the `eiu.edu.vn` domain. Before sharing it publicly, open it in an incognito window or ask someone outside the university to test it — if the deployment's *"Who has access"* setting is scoped to the EIU organization rather than *"Anyone"*, external visitors will hit a permission error instead of the dashboard.
 ## How to run this project
 
 ```bash
