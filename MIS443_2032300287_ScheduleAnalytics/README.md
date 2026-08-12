@@ -42,7 +42,8 @@ ERD: see `erd/ERD.png` (exported from pgAdmin's ERD Tool — `.pgerd` doesn't re
 ![Insight 1](screenshots/insight-1-workload-illusion.png)
 ![Insight 2](screenshots/insight-2-burnout-heatmap.png)
  <img width="1045" height="592" alt="image" src="https://github.com/user-attachments/assets/09b96071-6a57-450b-8c6c-aec6d5475dfb" />
-![Uploading image.png…]() 
+<img width="1044" height="578" alt="image" src="https://github.com/user-attachments/assets/cd1af717-594a-4ea4-a9e1-35a297845a4b" />
+
 
 **Takeaway for the registrar:** cap weekly teaching hours with early warnings before peak weeks, and run the double-booking / hour-rule checks as SQL views *before* a schedule is published, not after.
 <!--
