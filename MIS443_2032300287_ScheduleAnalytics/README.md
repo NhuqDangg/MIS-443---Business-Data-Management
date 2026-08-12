@@ -1,6 +1,6 @@
 # Schedule Analytics — Q1 Timetable Data Warehouse & Workload Analysis
 
-Đặng Huỳnh Quỳnh Như · Business Analytics Student · Eastern International University IRN 2032300287 · Quarter 1, 2025–2026
+Đặng Huỳnh Quỳnh Như · Business Analytics Student · Eastern International University IRN 2032300287 · Quarter 4, 2025–2026
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14%2B-336791?logo=postgresql&logoColor=white) ![pgAdmin](https://img.shields.io/badge/pgAdmin-4-25597e) ![SQL](https://img.shields.io/badge/SQL-star--schema-lightgrey) ![Git](https://img.shields.io/badge/Git-tracked-orange?logo=git&logoColor=white)
 
