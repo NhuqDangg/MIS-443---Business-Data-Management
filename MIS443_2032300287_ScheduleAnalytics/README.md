@@ -104,4 +104,6 @@ MIS443_2032300287_ScheduleAnalytics/
 │   └── 03_extract_data.sql
 ├── data/            (9 CSVs, one per table)
 └── screenshots/     (4 insight images + recommendation slide)
+└── Live dashboard
+└── Report 
 ```
