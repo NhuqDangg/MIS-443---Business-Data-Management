@@ -50,9 +50,7 @@ Create a PostgreSQL database named `danghuynhquynhnhu`, connect to it, and execu
 | customers | 6 |
 | transactions | 15 |
 
-📸 *Screenshot:<img width="1009" height="521" alt="image" src="https://github.com/user-attachments/assets/f0496bb9-51d5-4881-94b3-f1b5b29d3dad" />
-
-*
+📸 Screenshot:<img width="1009" height="521" alt="image" src="https://github.com/user-attachments/assets/f0496bb9-51d5-4881-94b3-f1b5b29d3dad" />
 
 ---
 
@@ -73,7 +71,8 @@ Expected result:
 2 | JaneDoe  | New York
 ```
 
-📸 Screenshot: <img width="1008" height="563" alt="image" src="https://github.com/user-attachments/assets/052ffd96-63ec-4c10-a5fb-16bd5cd176eb" />
+📸 Screenshot:<img width="1009" height="567" alt="image" src="https://github.com/user-attachments/assets/11768d4e-5751-413c-8966-cbbde0cd1b6b" />
+
 
 
 **(b)** Calculate the total number of accounts — name the result `total_accounts`. *(5 marks)*
@@ -85,7 +84,7 @@ FROM accounts;
 
 Expected result: `15`
 
-📸 *Screenshot: `screenshots/q2b-total-accounts.png`*
+📸 Screenshot: <img width="1007" height="567" alt="image" src="https://github.com/user-attachments/assets/ad01ba86-526a-413e-afc0-62ce00cd015c" />
 
 ---
 
