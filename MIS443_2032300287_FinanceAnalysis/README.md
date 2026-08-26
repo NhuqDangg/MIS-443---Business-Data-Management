@@ -73,7 +73,8 @@ Expected result:
 2 | JaneDoe  | New York
 ```
 
-📸 *Screenshot: `screenshots/q2a-new-york-customers.png`*
+📸 Screenshot: <img width="1008" height="563" alt="image" src="https://github.com/user-attachments/assets/052ffd96-63ec-4c10-a5fb-16bd5cd176eb" />
+
 
 **(b)** Calculate the total number of accounts — name the result `total_accounts`. *(5 marks)*
 
