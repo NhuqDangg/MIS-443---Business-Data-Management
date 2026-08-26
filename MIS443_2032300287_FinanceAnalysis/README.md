@@ -49,7 +49,8 @@ Create a PostgreSQL database named `danghuynhquynhnhu`, connect to it, and execu
 | customers | 6 |
 | transactions | 15 |
 
-📸 *Screenshot: `screenshots/q1-database-setup.png`*
+📸 *Screenshot: ![Uploading image.png…]()
+*
 
 ---
 
