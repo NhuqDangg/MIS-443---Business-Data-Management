@@ -49,8 +49,8 @@ Create a PostgreSQL database named `danghuynhquynhnhu`, connect to it, and execu
 | customers | 6 |
 | transactions | 15 |
 
-📸 *Screenshot: ![<img width="1009" height="521" alt="image" src="https://github.com/user-attachments/assets/8ae289c4-f2ac-4a8e-918a-2f63ac14e186" />
-]()
+📸 *Screenshot:<img width="1009" height="521" alt="image" src="https://github.com/user-attachments/assets/f0496bb9-51d5-4881-94b3-f1b5b29d3dad" />
+
 *
 
 ---
