@@ -30,7 +30,8 @@ The goal isn't just to get the right number — it's to write a query a manager 
 - Positive balances = funds held; negative Credit Card balances = amounts owed
 - Positive transaction amounts = credits; negative = debits
 
-ERD: see `erd/ERD.png` (exported from pgAdmin's ERD Tool — `.pgerd` file also included).
+ERD: <img width="1011" height="568" alt="image" src="https://github.com/user-attachments/assets/50101836-7874-44e1-9c98-09ddf9d0a780" />
+
 
 ---
 
