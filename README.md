@@ -61,6 +61,8 @@ Each folder here is a separate database project — a different business context
 | **School** | ✅ | ✅ | ✅ | – | ✅ |
 | **Healthcare** | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Schedule Analytics | ✅ | ✅ | ✅ | – | ✅ |
+| **Finance Analysis** | ✅ | ✅ | ✅ | ✅ | ✅ |
+
 
 <br/>
 
